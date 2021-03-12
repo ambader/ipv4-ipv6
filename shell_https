@@ -1,0 +1,6 @@
+ #!/bin/bash
+# /etc/socat/443_socat
+# Socat-Script Port 443
+
+# TCP Port 443
+/usr/bin/socat TCP4-LISTEN:443,fork TCP6:[::1]:443

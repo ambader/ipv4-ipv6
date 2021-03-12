@@ -1,0 +1,12 @@
+[Unit]
+Description=socat Service 80
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/etc/socat/80_socat
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

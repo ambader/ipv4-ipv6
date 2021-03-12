@@ -1,0 +1,6 @@
+#!/bin/bash
+# /etc/socat/80_socat
+# Socat-Script Port 80
+
+# TCP Port 80
+/usr/bin/socat TCP4-LISTEN:80,fork TCP6:[::1]:80 
