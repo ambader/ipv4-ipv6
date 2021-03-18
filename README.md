@@ -3,7 +3,7 @@
 Socat connect IPv4 to IPv6
   based on https://www.mbuth.de/?p=1356
 
-create socat directorie
+create socat directory
 ```console
 mkdir /etc/socat
 ```
